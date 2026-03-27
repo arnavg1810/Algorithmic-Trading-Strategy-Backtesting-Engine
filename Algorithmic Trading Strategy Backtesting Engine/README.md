@@ -221,7 +221,11 @@ Always fully invested. This is the **benchmark** against which active strategies
 ## 5. File Structure
 
 ```
+<<<<<<< HEAD
+Algorithmic Trading Strategy Backtesting Engine/
+=======
 P1/
+>>>>>>> 5fe9cac5f5745a149434a10821b43f6622396a66
 ├── app.py                              # Main interactive Streamlit web application
 ├── run_strategy.py                     # CLI script — runs strategy and saves outputs to output/
 ├── Algorithmic_Trading_Strategy.ipynb  # Jupyter notebook version with full report
@@ -269,7 +273,11 @@ P1/
 
 ```bash
 # Clone or navigate to the project directory
+<<<<<<< HEAD
+cd "Algorithmic Trading Strategy Backtesting Engine"
+=======
 cd P1
+>>>>>>> 5fe9cac5f5745a149434a10821b43f6622396a66
 
 # Create a virtual environment (recommended)
 python -m venv venv
@@ -876,7 +884,11 @@ jupyter>=1.0.0
 ### Module Structure
 
 ```
+<<<<<<< HEAD
+Algorithmic Trading Strategy Backtesting Engine/
+=======
 P1/
+>>>>>>> 5fe9cac5f5745a149434a10821b43f6622396a66
 ├── data/index_constituents.py       # Global index definitions
 ├── strategies/core.py               # 4 strategy implementations + router
 ├── strategies/indicators.py         # Technical indicators (RSI, SMA)
